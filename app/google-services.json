@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "975469646811",
+    "project_id": "life-bcc56",
+    "storage_bucket": "life-bcc56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975469646811:android:aed995a4dec93f2a61cdfe",
+        "android_client_info": {
+          "package_name": "com.lifeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975469646811-l6mbpimr59ar94skm3m7j0kig4cgnk1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lifeapp",
+            "certificate_hash": "a6825e50e55da4d3dfb8264969825f2e12097d54"
+          }
+        },
+        {
+          "client_id": "975469646811-li20m8gb28odqdk7ufkecu31n5f8ituo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhi9BvD1HD1BGA-iuP5Xl8xF1vqBwxVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975469646811-li20m8gb28odqdk7ufkecu31n5f8ituo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
