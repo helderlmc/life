@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_main2.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_maps.xml" value="0.15" />
+        <entry key="..\:/Users/helder.costa/AndroidStudioProjects/LifeApp/app/src/main/res/layout/activity_requisicoes.xml" value="0.15" />
       </map>
     </option>
   </component>

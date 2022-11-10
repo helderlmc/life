@@ -10,11 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifeApp">
         <activity
-            android:name=".activity.CadastroActivity"
+            android:name=".activity.RequisicoesActivity"
             android:exported="false" />
         <activity
+            android:name=".activity.CadastroActivity"
+            android:exported="false"
+            android:label="@string/titulo_cadastro"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
             android:name=".activity.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/titulo_login"
+            android:parentActivityName=".activity.MainActivity" />
         <activity
             android:name=".activity.MapsActivity"
             android:exported="false" />

@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">LifeApp</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="titulo_cadastro">Cadastrar uma nova conta</string>
+    <string name="titulo_login">Acessar minha conta</string>
+    <string name="login_texto_email">E-mail</string>
+    <string name="login_texto_senha">Senha</string>
+    <string name="login_texto_entrar">Entrar</string>
+    <string name="cadastro_texto_salvar">Cadastrar</string>
+    <string name="cadastro_texto_passageiro">Passageiro</string>
+    <string name="cadastro_texto_motorista">Motorista</string>
+    <string name="cadastro_texto_nome">Nome</string>
+    <string name="cadastro_texto_email">E-mail</string>
+    <string name="cadastro_texto_senha">Senha</string>
 </resources>
