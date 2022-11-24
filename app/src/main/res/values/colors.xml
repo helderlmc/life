@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="btnLogin">#1fbad6</color>
     <color name="btnCadastro">#83838c</color>
+    <color name="btnChamar">#333c43</color>
 </resources>

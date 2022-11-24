@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lifeapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +15,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LifeApp">
         <activity
+            android:name=".activity.CorridaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_corrida"
+            android:theme="@style/Theme.LifeApp.NoActionBar"
+            android:parentActivityName=".activity.RequisicoesActivity"/>
+        <activity
+            android:name=".activity.TesteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_teste"
+            android:theme="@style/Theme.LifeApp.NoActionBar" />
+        <activity
+            android:name=".activity.PassageiroActivity"
+            android:exported="false"
+            android:label="@string/titulo_iniciar_viagem"
+            android:theme="@style/Theme.LifeApp.NoActionBar" />
+        <activity
             android:name=".activity.RequisicoesActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/titulo_requisicoes" />
         <activity
             android:name=".activity.CadastroActivity"
             android:exported="false"
@@ -21,10 +43,9 @@
             android:name=".activity.LoginActivity"
             android:exported="false"
             android:label="@string/titulo_login"
-            android:parentActivityName=".activity.MainActivity" />
-        <activity
-            android:name=".activity.MapsActivity"
-            android:exported="false" />
+            android:parentActivityName=".activity.MainActivity" /> <!-- <activity -->
+        <!-- android:name=".activity.MapsActivity" -->
+        <!-- android:exported="false" /> -->
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -38,7 +59,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyDQBj5r75I2osXDRtLQmVrNGuIpWm3Rek4" />
 
         <activity
             android:name=".activity.MainActivity"
